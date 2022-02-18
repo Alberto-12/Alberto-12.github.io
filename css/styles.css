@@ -12,3 +12,26 @@ body{
   width: 16px;
   color: #6070FF;
 }
+
+.p1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #172b4d
+
+
+}
+.p2 {
+  font-weight: 200;
+  font-size: 16px
+}
+.p3 {
+  
+  color: #6070FF;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+width: 50%
+   }
