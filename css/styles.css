@@ -7,6 +7,7 @@ body{
   display: flex;
   justify-content: space-between;
   color: #6070FF;
+  padding: 1.5rem;
 }
 
 .humburger {
@@ -34,8 +35,11 @@ body{
 ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-around;
-  width: 50%
+  justify-content: space-between;
+  width: 60%;
+  color: #172b4d;
+  font-size: 1.5rem;
+  padding: 0;
 }
 
 .intro-section {
