@@ -35,3 +35,10 @@ ul {
   justify-content: space-around;
 width: 50%
    }
+
+   .intro-section {
+    background-image: url("../images/header-shapes\ mobile@2x.svg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center ;
+   }
