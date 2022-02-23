@@ -1,6 +1,7 @@
 body{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
+  margin: 0;
 }
 .navbar {
   display: flex;
@@ -14,15 +15,16 @@ body{
 }
 
 .p1 {
-  font-weight: 500;
-  font-size: 48px;
-  color: #172b4d
-
-
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+  line-height: 52px;
+  margin-top: 104px;
 }
 .p2 {
-  font-weight: 200;
-  font-size: 16px
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 .p3 {
   
@@ -33,12 +35,14 @@ ul {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-width: 50%
-   }
+  width: 50%
+}
 
-   .intro-section {
-    background-image: url("../images/header-shapes\ mobile@2x.svg");
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    background-position: center ;
-   }
+.intro-section {
+  background-image: url("../images/header-shapes\ mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem;
+}
