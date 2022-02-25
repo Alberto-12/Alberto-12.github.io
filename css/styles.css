@@ -50,3 +50,22 @@ ul {
   background-position: center;
   padding: 1.5rem;
 }
+.project-card {
+  padding: 16px;
+  border: 1px solid #DFE1E6;
+  width: 90%;
+  margin: 88px auto;
+  color: #172B4D ;
+  
+  
+ 
+}
+.project-card__image {
+  width: 100%;
+}
+.projct-card__heading {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+}
