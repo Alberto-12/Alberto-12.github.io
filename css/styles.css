@@ -53,12 +53,10 @@ ul {
 .project-card {
   padding: 16px;
   border: 1px solid #DFE1E6;
-  width: 90%;
+  width: 80%;
   margin: 88px auto;
-  color: #172B4D ;
-  
-  
- 
+  color: #172B4D; 
+  border-radius: 16px;
 }
 .project-card__image {
   width: 100%;
@@ -68,4 +66,53 @@ ul {
   font-size: 32px;
   line-height: 44px;
 
+}
+
+.project-card__description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.project-card__timeline {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.project-card__timeline--span {
+  color: #7A869A;
+  margin: 8px;
+}
+
+.project-card__timeline--span::before {
+  content: "-  ";
+}
+
+.project-card__tech {
+  color: #6070FF;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  margin: 28px 0;
+}
+
+
+.project-card__tech--item {
+  background-color: #EBEBFF;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.project-card__button {
+  color: #396DF2;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #396DF2;
+  background-color: #FFFFFF;
 }
