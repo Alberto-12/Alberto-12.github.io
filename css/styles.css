@@ -32,7 +32,7 @@ body{
   color: #6070FF;
 }
 
-ul {
+.social-media-icons {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
