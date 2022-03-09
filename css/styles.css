@@ -158,3 +158,43 @@ body {
 .about .p1 {
   width: 50%;
 }
+
+.contact-section {
+  padding: 32px;
+  background-color: #6070FF;
+  color: white;
+  background-image: url("../images/header-shapes\ mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 150px;
+  
+}
+
+.name-email_box {
+  height: 48px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+margin: 8px;
+}
+
+.client-text_box {
+  height: 170px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+margin: 8px;
+
+}
+
+.contact-button {
+  margin: 8px;
+}
+
+.contact-heading {
+  color:white;
+}
