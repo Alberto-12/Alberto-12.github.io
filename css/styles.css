@@ -6,13 +6,26 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #6070ff;
   padding: 1.5rem;
 }
 
-.humburger {
-  width: 16px;
-  color: #6070ff;
+.nav-links {
+  display: none;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  width: 200px;
 }
 
 .p1 {
@@ -191,7 +204,7 @@ body {
   text-align: center;
 }
 
-.contact-section .p2{
+.contact-section .p2 {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -220,4 +233,14 @@ body {
   width: 80%;
   margin: 0 auto;
   padding-right: 2.2rem;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
