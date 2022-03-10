@@ -161,7 +161,7 @@ body {
 
 .contact-section {
   padding: 32px;
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
   background-image: url("../images/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
@@ -169,26 +169,13 @@ body {
   background-size: cover;
   background-position: center;
   border-top-left-radius: 150px;
-  
 }
 
 .name-email_box {
   height: 48px;
-width: 327px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-margin: 8px;
-}
-
-.client-text_box {
-  height: 170px;
-width: 327px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-margin: 8px;
-
+  width: 100%;
+  border-radius: 8px;
+  margin: 8px 0;
 }
 
 .contact-button {
@@ -196,5 +183,41 @@ margin: 8px;
 }
 
 .contact-heading {
-  color:white;
+  color: white;
+}
+
+.contact-heading,
+.contact-section .p2 {
+  text-align: center;
+}
+
+.contact-section .p2{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.client-text_box,
+.contact-section form input {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 0px 16px;
+}
+
+.client-text_box {
+  height: 170px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 8px auto;
+  color: #b3bac5;
+  padding: 16px;
+}
+
+.contact-form {
+  width: 80%;
+  margin: 0 auto;
+  padding-right: 2.2rem;
 }
